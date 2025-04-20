@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Diamantes - Free Fire</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <img src="https://seeklogo.com/images/F/free-fire-logo-066ACDD54B-seeklogo.com.png" alt="Free Fire" class="logo">
+    <h1>Generador de Diamantes</h1>
+    <p>Ingresa tu ID de jugador:</p>
+    <input type="text" id="playerId" placeholder="ID de jugador">
+
+    <p>Selecciona cantidad de diamantes:</p>
+    <div class="diamonds">
+      <button onclick="selectDiamonds(5600)">💎 5600</button>
+      <button onclick="selectDiamonds(11000)">💎 11000</button>
+      <button onclick="selectDiamonds(20000)">💎 20000</button>
+    </div>
+
+    <button class="generate-btn" onclick="startGeneration()">GENERAR</button>
+
+    <div id="status" class="status hidden"></div>
+
+    <div class="ads">
+      <!-- Google AdSense -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</body>
+</html>
